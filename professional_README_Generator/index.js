@@ -98,7 +98,7 @@ inquirer.prompt([
     type: 'list',
     name: 'license',
     message: 'Which license will you use for your Project?',
-    choices: ['MIT License', 'Apache License 2.0', 'GNU General Public License v3.0', 'BSD 2-Clause "Simplified"'],
+    choices: ['MIT', 'Apache 2.0 License', 'Boost Software License 1.0', 'BSD 2-Clause License', 'Mozilla Public License 2.0'],
   },
 
   {
@@ -144,9 +144,12 @@ inquirer.prompt([
     email
   } = answers;
 
+  const licenseBadge = generateLicense(license);
+
   const readme = `
 ## License
-${license}
+
+License used for this project: ${licenseBadge}
 
 # ${title}
 
@@ -178,3 +181,18 @@ Email: [${email}](mailto:${email})
 .catch((error) => {
   console.error(error);
 });
+
+function generateLicense(license) {
+  // MIT License
+  if (license === "MIT") {
+    return `![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)`;
+  } else if (license === "Apache 2.0 License") {
+    return `![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)`;
+  } else if (license === 'Boost Software License 1.0') {
+    return `![License: Boost 1.0](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)`;
+  } else if (license === 'BSD 2-Clause License') {
+    return `![License: BSD 2-Clause](https://img.shields.io/badge/License-BSD_2--Clause-orange.svg)`;
+  } else if (license === 'Mozilla Public License 2.0') {
+    return `[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)`;
+  }
+}
