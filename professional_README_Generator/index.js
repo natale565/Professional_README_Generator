@@ -162,6 +162,9 @@ ${installation}
 ## Usage
 ${usage}
 
+## Test
+${test}
+
 ${confirmContributors ? `## Contributing\n${contribute}\n` : ''}
 
 ## Contact
