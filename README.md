@@ -1,5 +1,3 @@
-
-
 # Professional README Generator
 
 ## License
@@ -33,7 +31,7 @@ License used for this project: ![License: MIT](https://img.shields.io/badge/Lice
 
 - After installation is complete, run the following code: ‘node inex.js’ in the terminal.
 - Answer questions regarding your project
-- Note, fields are requried, if not filled out you will recieve a console.log with a message to provide information.
+- Note, fields are required, if not filled out you will receive a console.log with a message to provide information.
 
 
 
@@ -60,5 +58,3 @@ License used for this project: ![License: MIT](https://img.shields.io/badge/Lice
 GitHub: [natale565](https://github.com/natale565)
 
 Email: [natale565@icloud.com](mailto:natale565@icloud.com)
-
-
