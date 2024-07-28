@@ -1,8 +1,10 @@
+
+
+# Professional README Generator
+
 ## License
 
 License used for this project: ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-
-# Professional README Generator
 
 ## Description
 - This application was created using node.js to generate professional README.md docs from the command line to cut down on the amount of time developers are using to write their README.md files. 
