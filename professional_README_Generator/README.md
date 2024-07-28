@@ -1,4 +1,3 @@
-
 ## License
 
 License used for this project: ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
@@ -16,7 +15,7 @@ License used for this project: ![License: MIT](https://img.shields.io/badge/Lice
 
 ## Installation
 
-1. Clone the repo: git clone
+1. Clone the repo: [Click here to copy HTML code](https://github.com/natale565/Professional_README_Generator)
 
 2. Open in VS Code.
 
@@ -30,19 +29,34 @@ License used for this project: ![License: MIT](https://img.shields.io/badge/Lice
 
 ## Usage
 
-After installation is complete, run the following code: ‘node inex.js’ in the terminal. Answer the prompts and after completion, you should see a console log showing your answers to your prompts, a message that says ‘File created!’, and you should see your file under the ‘dist’ folder called ‘generatedREADME’. It’s generated in mark down syntax so you can copy and paste that code into your project!
+- After installation is complete, run the following code: ‘node inex.js’ in the terminal.
+- Answer questions regarding your project
+- Note, fields are requried, if not filled out you will recieve a console.log with a message to provide information.
 
 
 
 ## Test
 
-- Below is a video of how to create a README.md file using this application:
+- To test this application, open the file in VS Code. 
+- Open the terminal, change directory into the root folder ‘professional_README_Generator’, and run ‘node index.js’. 
+- Answer the prompts and view the preview of the generated 'README.md’ file.
+
+- [Click here for a video ](https://drive.google.com/file/d/1gnWZ_XRtiJOjcsfLxiLSYHaawSdSZAC7/preview)
+
+## Screenshots
+
+![ReadME](/Assets/images/Screenshot%202024-07-28%20at%2010.30.55 AM.png)
+![Terminal](/Assets/images/Screenshot%202024-07-28%20at%2010.30.21 AM.png)
+
 
 ## Contributing
-tes
+
+- This project is not open for contributes. 
 
 
 ## Contact
 GitHub: [natale565](https://github.com/natale565)
 
 Email: [natale565@icloud.com](mailto:natale565@icloud.com)
+
+

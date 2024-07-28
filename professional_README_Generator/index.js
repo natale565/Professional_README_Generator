@@ -147,11 +147,12 @@ inquirer.prompt([
   const licenseBadge = generateLicense(license);
 
   const readme = `
+
+# ${title}
+
 ## License
 
 License used for this project: ${licenseBadge}
-
-# ${title}
 
 ## Description
 ${description}
