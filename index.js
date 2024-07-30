@@ -173,7 +173,7 @@ GitHub: [${git}](https://github.com/${git})\n
 Email: [${email}](mailto:${email})
 `;
 
-  fs.writeFile('README.md', readme, (err) => {
+  fs.writeFile('test_README.md', readme, (err) => {
     if (err) {
       console.error(err);
     } else {
